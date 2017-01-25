@@ -1,0 +1,16 @@
+[Head]
+ver:1.0
+
+[RubinHintS3]
+region_host:s3.ap-northeast-2.amazonaws.com
+bucket:dev-kr-rubin
+access_key:AKIAJX5L3GMBBYHDRHXA
+secret_key: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
+
+[RubinUserDB]
+host:rds-d-reg-an2.cxdfqxvftxm8.ap-northeast-2.rds.amazonaws.com
+port:5306
+db_user:master
+db_password:mstr!1107
+db_name:rubin_scloud_sync
+
