@@ -134,3 +134,24 @@
 		<finalName>rubin</finalName>		
 	</build>
 </project>
+
+<insert id="insertDevice" parameterType="com.samsung.sec.rubin.server.vo.user.UserVO">
+        INSERT INTO RS_DEVICES(rubin_id,
+        					samsung_account_id,
+        					android_id,
+        					rubin_key_id,
+        					data_key,
+        					public_key,
+        					ad_id,
+        					spp_id,
+        					device_model_id,
+        					device_os_version,
+        					rubin_client_app_version,
+        					mcc,
+        					mnc,
+        					language,
+        					privacy_policy_status_code,
+        					register_status_code,
+        					latest_privacy_policy_status_changed_time,
+        					row_created_time,
+        					row_updated_time)
